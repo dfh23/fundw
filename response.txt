@@ -1,0 +1,39 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"> 
+    <SOAP-ENV:Header /> 
+    <SOAP-ENV:Body> 
+        <sear:SearchOffersResponse xmlns:sear="http://data.business.govt.nz/services/FMCR/DisclosePublic/SearchOffers" xmlns:com="http:
+ //data.business.govt.nz/services/FMCR/CommonTypes"> 
+            <sear:Response> 
+                <sear:Criteria> 
+                    <sear:OfferNameNumber>kiwisaver test</sear:OfferNameNumber> 
+                </sear:Criteria> 
+                <sear:FmcOfferSearchWebServiceResults> 
+                    <sear:OfferSummary> 
+                        <sear:OfferIdentification> 
+                            <sear:CurrentName>KIWISAVER TEST</sear:CurrentName> 
+                            <sear:OfferNumber>OFR11272</sear:OfferNumber> 
+                            <sear:Version>75</sear:Version> 
+                        </sear:OfferIdentification> 
+                        <sear:IssuerName>DISCLOSE REGISTER TEST COMPANY LIMITED</sear:IssuerName> 
+                        <sear:IssuerNumber>3045833(NZBN: 9429049716986)</sear:IssuerNumber> 
+                        <sear:OfferType>MIP_MANAGED_FUNDS</sear:OfferType> 
+                        <sear:OfferStatus>closed</sear:OfferStatus> 
+                        <sear:RegistrationDate>2016-07-14+12:00</sear:RegistrationDate> 
+                    </sear:OfferSummary> 
+                    <sear:OfferSummary> 
+                        <sear:OfferIdentification> 
+                            <sear:CurrentName>TEST KIWISAVER SCHEME</sear:CurrentName> 
+                            <sear:OfferNumber>OFR13047</sear:OfferNumber> 
+                            <sear:Version>12</sear:Version> 
+                        </sear:OfferIdentification> 
+                        <sear:IssuerName>DISCLOSE REGISTER TEST COMPANY LIMITED</sear:IssuerName> 
+                        <sear:IssuerNumber>3045833(NZBN: 9429049716986)</sear:IssuerNumber> 
+                        <sear:OfferType>MIP_MANAGED_FUNDS</sear:OfferType> 
+                        <sear:OfferStatus>open</sear:OfferStatus> 
+                        <sear:RegistrationDate>2017-08-24+12:00</sear:RegistrationDate>
+                    </sear:OfferSummary> 
+                </sear:FmcOfferSearchWebServiceResults> 
+            </sear:Response> 
+        </sear:SearchOffersResponse> 
+    </SOAP-ENV:Body> 
+</SOAP-ENV:Envelope>
